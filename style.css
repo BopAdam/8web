@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-family: "Bitcount Grid Double Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+}
+
+img{
+    width: 100%;
+}
+
+body {
+
+     background-color: rgb(215,214,248);
+}
+
+.container {
+    max-width:1300px;
+    margin:0 auto ;
+
+}
+
+.content .box img{
+    max-width: 50%;
+    float: left;
+
+}
+
+.content .box img:last-child{
+    max-width: 50%;
+    float: right;
+    
+}
+
+.content .box p{
+    max-width: 50%;
+    float: right;
+    font-size: 0.8rem;
+    padding: 20px;
+    line-height: 1.6;
+    
+}
+
+.box::after, .lebeges {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header{
+    background: url(picture1.jpg);
+    height: 580px;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 3rem;
+    padding:300px 0 0 400px;
+
+}
+
+.menu {
+    max-width: 12%;
+    float: left;
+
+}
+.content{
+    max-width: 88%;
+    float: right;
+    background-color: blanchedalmond;
+}
+
+.lebeges{
+    background-color: rgba(117, 8, 190, 0.692);
+}
+
+.menu a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 0;
+    display: block;
+}
+
+.menu a:hover{
+    color: black;
+}
+
+.menu li{
+    text-align: center;
+    border-bottom: 1px solid black;
+
+}
+
+.footer{
+    background-color: azure;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 8;
+}
+
+.content, .box p:first-child{
+    padding-bottom: 0;
+
+}
